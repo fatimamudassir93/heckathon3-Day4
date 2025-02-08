@@ -34,7 +34,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/contact"
-, "next.config.js"  ],
+, "next.config.ts"  ],
   "exclude": [
     "node_modules"
   ]
