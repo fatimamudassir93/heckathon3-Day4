@@ -43,7 +43,7 @@ const Cart = () => {
                         <img src={item.image} alt={item.name} className="w-16 h-16 object-cover rounded" />
                         <span className="font-medium text-gray-900">{item.name}</span>
                       </td>
-                      <td className="py-4 px-4 text-gray-800 font-semibold">Rs. {(Number(item.price) * item.quantity).toFixed(2)}</td>
+                      <td className="py-4 px-4 text-gray-800 font-semibold">Rs. {(parseFloat(item.price) * item.quantity).toFixed(2)}</td>
                       <td className="py-4 px-4">
                         <div className="flex items-center space-x-2 border border-gray-300 rounded px-2 py-1">
                           <button
